@@ -21,10 +21,10 @@ public class Person {
 
     public long getLength(long height){
         long width = Math.round(Math.random() * 10);
-        long temp = 150 + Math.round((Math.random() * width));
-        System.out.println(temp);
-        temp = height * width;
-        System.out.println(temp);
-        return temp;
+        long avg = 150 + Math.round((Math.random() * width));
+        System.out.println(avg);
+        long length = height * width;
+        System.out.println(length);
+        return length;
     }
 }
