@@ -19,12 +19,11 @@ public class Person {
         this.age = age;
     }
 
-    public long getLength(long height){
+    public void calculateLength(long height){
         long width = Math.round(Math.random() * 10);
-        long avg = 150 + Math.round((Math.random() * width));
-        System.out.println(avg);
-        avg = height * width;
-        System.out.println(avg);
-        return avg;
+        final long tempAvg = 150 + Math.round((Math.random() * width));
+        System.out.println(tempAvg);
+        final long length = height * width;
+        System.out.println(length);
     }
 }
