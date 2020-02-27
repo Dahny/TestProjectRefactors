@@ -23,8 +23,8 @@ public class Person {
         long width = Math.round(Math.random() * 10);
         long avg = 150 + Math.round((Math.random() * width));
         System.out.println(avg);
-        long length = height * width;
-        System.out.println(length);
-        return length;
+        avg = height * width;
+        System.out.println(avg);
+        return avg;
     }
 }
