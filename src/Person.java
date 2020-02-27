@@ -1,14 +1,14 @@
 public class Person {
 
-    private String name;
+    private String personName;
     private int age;
 
     public String getName(){
-        return name;
+        return personName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.personName = name;
     }
 
     public int getAge() {
