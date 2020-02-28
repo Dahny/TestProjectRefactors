@@ -13,8 +13,8 @@ public class People {
         Human aHuman = people.get(1);
         Person human = new Person();
         System.out.println(human);
-        human = (Person) new Object();
-        System.out.println(human);
+        Person human1 = new Person();
+        System.out.println(human1);
     }
 
 }
