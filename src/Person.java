@@ -1,7 +1,7 @@
 public class Person {
 
     private String personName;
-    private int age;
+    private long age;
 
     public String getName(){
         return personName;
@@ -11,7 +11,7 @@ public class Person {
         this.personName = name;
     }
 
-    public int getAge() {
+    public long getAge() {
         return age;
     }
 
