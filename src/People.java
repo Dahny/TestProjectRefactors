@@ -3,15 +3,15 @@ import java.util.ArrayList;
 
 public class People {
 
-    private List<Person> people = new ArrayList<Person>();
+    private List<Human> people = new ArrayList<Human>();
 
-    public List<Person> getPeople(){
+    public List<Human> getPeople(){
         return people;
     }
 
-    public Person aPerson(){
-        Person aPerson = people.get(1);
-        return aPerson;
+    public Human aPerson(){
+        Human aHuman = people.get(1);
+        return aHuman;
     }
 
 }
