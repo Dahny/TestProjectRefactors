@@ -20,8 +20,8 @@ public class Person {
     }
 
     public long calculateLength(long height){
-        long width = Math.round(Math.random() * 10);
-        final long tempAvg = 150 + Math.round((Math.random() * width));
+        int width = 10;
+        final long tempAvg = 150 + Math.round((Math.random() * (long) width));
         System.out.println(tempAvg);
         final long length = height * width;
         System.out.println(length);
