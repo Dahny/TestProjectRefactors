@@ -13,7 +13,7 @@ public class People {
         Human aHuman = people.get(1);
         Person human = new Person();
         System.out.println(human);
-        human = new Person();
+        Person human1 = new Person();
         System.out.println(human);
     }
 
