@@ -11,7 +11,7 @@ public class People {
 
     public Human aPerson(){
         Human aHuman = people.get(1);
-        Person person = new Person();
+        Human human = new Human();
         return aHuman;
     }
 
