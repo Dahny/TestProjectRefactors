@@ -9,10 +9,9 @@ public class People {
         return people;
     }
 
-    public Human aPerson(){
+    public void aPerson(){
         Human aHuman = people.get(1);
-        Human human = new Human();
-        return aHuman;
+        Person human = new Person();
     }
 
 }
