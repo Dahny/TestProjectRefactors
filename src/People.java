@@ -9,4 +9,9 @@ public class People {
         return people;
     }
 
+    public Person aPerson(){
+        Person aPerson = people.get(1);
+        return aPerson;
+    }
+
 }
