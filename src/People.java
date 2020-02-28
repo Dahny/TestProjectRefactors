@@ -12,6 +12,9 @@ public class People {
     public void aPerson(){
         Human aHuman = people.get(1);
         Person human = new Person();
+        System.out.println(human);
+        human = new Person();
+        System.out.println(human);
     }
 
 }
